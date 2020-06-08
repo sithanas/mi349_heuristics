@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma--A Failure of UI Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Figma--A Failure of UI Design</h1>
+    <h2 class="subhead">When Good Design Goes Bad</h2>
+    <p class="intro">A good user interface is crucial for enabling users to take advantage of an application. If the features of an application are not easily found, or the user interface is too difficult or defective, users will abandon the application in favor of another. With this in mind, we look at Figma and analyze its user interface--both its strengths and its (many) failings.</p>
+    <div class="heuristic">
+        <h3>Heuristic 1: Visibility of System Status</h3>
+        <p class="imgcontainer"><img class="exampleimg" src="images/1_visibility.png" alt="Screenshot of Visibility Heuristic"></p>
+        <p>The system should keep users informed about what's going on, with appropriate feedback, in an appropriate time. Figma's approach to this is acceptable--the system clearly shows when you're in a document versus outside of a document, but it provides no other relevant information as to what the system is doing. There is no information about edit modes, document size, etc.</p>
+    </div>
+    <div class="heuristic">
+        <h3>Heuristic 2: Match Between System and the Real World</h3>
+        <p class="imgcontainer"><img class="exampleimg" src="images/2_realworld.png" alt="Screenshot of Real-World Consistency Heuristic"></p>
+        <p>The system should speak the user's language, using concepts already familiar to the user and the user's experience. Figma requires a user to have at least a medium familiarity with vector drawing applications. The controls are standard vector app tools, but offer little to no explanation for a user new to the overall type of system. The file tree view shows a file tree in the linux/unix "slash" format, with no explanation that this represents a file location aside from a user's expected familiarity with that convention.</p>
+    </div>
+    <div class="heuristic">
+        <h3>Heuristic 3: User Control and Freedom</h3>
+        <p class="imgcontainer"><img class="exampleimg" src="images/3_usercontrol.png" alt="Screenshot of User Control and Freedom Heuristic"></p>
+        <p>Users make mistakes; allow them the power to do so and provide an easy way back. Figma offers great potential for mistakes, but no easily-visible way out. Undo and redo are supported, but only with shortcuts or by visiting a menu--there are no visible undo/redo quick buttons and no visual prompting. Users are expected to guess the capability exists.</p>
+    </div>
+    <div class="heuristic">
+        <h3>Heuristic 4: Consistency and Standards</h3>
+        <p class="imgcontainer"><img class="exampleimg" src="images/4_consistency.png" alt="Screenshot of Consistency and Standards Heuristic"></p>
+        <p>Users should not have to wonder if different words, situations, or actions mean different things. Figma does acceptably in this regard. Controls are borrowed from other vector drawing apps and follow the expected conventions for things like curves, line handles, etc., and users who are coming from apps like Illustrator will recognize them.</p>
+    </div>
+    <div class="heuristic">
+        <h3>Heuristic 5: Error Prevention</h3>
+        <p class="imgcontainer"><img class="exampleimg" src="images/5_errorprevention.png" alt="Screenshot of Error Prevention Heuristic"></p>
+        <p>Applications should be designed to prevent errors by guiding users towards successful use of the program. Figma falls down <i>hard</i>when it comes to preventing users from experiencing errors. Selecting elements on the page is difficult and users aren't guided to selectable items (other design programs will highlight selectable areas on a hover action, for instance), nor are they offered clear actions once a selection is made. The program offers undo but it does not prevent the errors from happening in the first place.</i></p>
+    </div>
+    <div class="heuristic">
+        <h3>Heuristic 6: Recognition over Recall</h3>
+        <p class="imgcontainer"><img class="exampleimg" src="images/6_recognition.png" alt="Screenshot of Recognition Heuristic"></p>
+        <p>Users should not have to memorize functions and interface items--they should be natural and presented in a clear fashion to the user. This is another area where Figma fails to develop a good interface. Controls change in non-obvious ways when items are selected, and the changing controls are not highlighted for the user's awareness. Many functions are hidden away in menus that require users to memorize the menu trees. Functions like undo are hidden in menus or with command keys. Commonly used items like zoom functionality are presented with simple controls but are not obviously the functions they fulfill (zoom is a percentage with no indicator that it represents zoom--other applications use magnifying glass icons).</p>
+    </div>
+    <div class="heuristic">
+        <h3>Heuristic 7: Flexibility and Efficiency of Use</h3>
+        <p class="imgcontainer"><img class="exampleimg" src="images/7_flexibility.png" alt="Screenshot of Flexibility Heuristic"></p>
+        <p>Accelerators should be present to allow experienced users to take advantage of shortcuts. Figma does well here--there is a large quantity of available command keys for users to take advantage of. They are unfortunately poorly discoverable, but for users who are aware of them they offer speed advantages.</p>
+    </div>
+    <div class="heuristic">
+        <h3>Heuristic 8: Asthetic and Minimalist Design</h3>
+        <p class="imgcontainer"><img class="exampleimg" src="images/8_asthetic.png" alt="Screenshot of Asthetic Heuristic"></p>
+        <p>Design should emphasize useful elements and eliminate elements which do not provide value. Too much information effectively hides the important elements of a display. Figma effectively overdoes the minimalism--the application is visually simple but does not do enough to explain functions and provide information, which causes users to become frustrated when having to crawl through the interface to figure out what they want to do.</p>
+    </div>
+    <div class="heuristic">
+        <h3>Heuristic 9: Help Users Recognize, Diagnose, and Recover from Errors</h3>
+        <p class="imgcontainer"><img class="exampleimg" src="images/9_errors.png" alt="Screenshot of Error Recovery Heuristic"></p>
+        <p>Error messages should be in plain language and offer clear paths to resolution. Figma blocks controls when they are not usable, but does not explain why the controls are blocked. Other actions produce error messages but may require users to jump into the documentation to correct.</p>
+    </div>
+    <div class="heuristic">
+        <h3>Heuristic 10: Help and Documentation</h3>
+        <p class="imgcontainer"><img class="exampleimg" src="images/10_documentation.png" alt="Screenshot of Documentation Heuristic"></p>
+        <p>Not all systems are usable without documentation, so documentation provided should be thorough and accessible. Figma offers a documentation center which is easily accessible through the help icon on the screen, but it suffers from some usability issues. Documentation is highlighted by a search function--this is good for users who know specifically what they want help with, but not for new users. Users will hopefully notice the "getting started" link at the top but it could stand to be clearer. Once in documentation, the steps are reasonably clear but suffer from extraneous information and are overly detailed.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    background-color: #202627;
+    color: #c9c9c9;
+    padding: 50px;
+    width: auto;
+}
+
+h1 {
+    padding: 10px;
+	text-align: center;
+    background-color: #3a3f40;
+}
+
+.intro {
+    font-size: 110%;
+}
+
+.heuristic {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 20px;
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #484e50;
+}
+
+.imgcontainer {
+    text-align: center;
+    padding: 5px;
+}
+
+.exampleimg {
+    max-height: 300px;
+    border: 3px solid #2a3031;
+}
